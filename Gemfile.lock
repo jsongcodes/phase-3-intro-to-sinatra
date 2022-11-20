@@ -1,9 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    mustermann (1.1.1)
+    mustermann (1.1.2)
       ruby2_keywords (~> 0.0.1)
-    rack (2.2.3)
+    rack (2.2.4)
     rack-protection (2.1.0)
       rack
     rack-test (1.1.0)
@@ -14,14 +14,14 @@ GEM
       rack (~> 2.2)
       rack-protection (= 2.1.0)
       tilt (~> 2.0)
-    tilt (2.0.10)
+    tilt (2.0.11)
 
 PLATFORMS
-  universal-darwin-20
+  x86_64-darwin-19
 
 DEPENDENCIES
-  rack-test (~> 1.1)
-  sinatra (~> 2.1)
+  rack-test (~> 1.1.0)
+  sinatra (~> 2.1.0)
 
 BUNDLED WITH
-   2.2.23
+   2.3.26
